@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #FFFFFF;
+    font-family: Arial, sans-serif;
+}
+
+#plantilla {
+    background-color: #DDDBDC;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px 20px 20px; 
+    text-align: center;
+    width: 300px; 
+}
+
+img {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    object-fit: cover; /* Esto haace que la imagen mantenga su proporción al recortarla */
+    margin: -50px auto 20px; 
+    display: block; 
+    border: 5px solid white;
+    border: none; 
+}
+
+h1 {
+    font-family: 'Space Grotesk', sans-serif; 
+    color: #411a9c; 
+    font-size: 20px; 
+    margin: 10px 0; 
+}
+
+p {
+    font-family: 'Space Grotesk', sans-serif; 
+    color: #7C7DB1; 
+    margin: 10px 0; 
+}
+
+button {
+    background-color: transparent; 
+    border: 2px solid #7C7DB1; 
+    border-radius: 10px; 
+    color: #7C7DB1; 
+    padding: 10px 20px; 
+    margin: 10px 0; 
+    cursor: pointer;
+    width: 100%; 
+    transition: background-color 0.3s, color 0.3s; /* Hace una transición suave */
+}
+
+button:hover {
+    background-color: rgba(124, 125, 177, 0.1); 
+    color: #FFFFFF; 
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.footer-icons img {
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%; 
+    object-fit: cover; /* Hace que la imagen mantenga su proporción al recortarla */
+    margin: 0 5px; 
+    border: none; 
+}
